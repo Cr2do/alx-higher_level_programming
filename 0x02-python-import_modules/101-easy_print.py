@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-from click import echo
-if __name__ == "__main__":    
-    echo("#pythoniscool")
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
