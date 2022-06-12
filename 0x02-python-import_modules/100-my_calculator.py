@@ -20,6 +20,6 @@ if __name__ == "__main__":
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             sys.exit(1)
-    else:        
+    else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         print(sys.exit(1))
