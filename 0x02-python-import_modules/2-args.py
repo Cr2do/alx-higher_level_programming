@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from ctypes import sizeof
 from operator import indexOf
 import sys
 
