@@ -66,4 +66,4 @@ class SinglyLinkedList:
                 break
             else:
                 txt += '\n'
-        return 
+        return
