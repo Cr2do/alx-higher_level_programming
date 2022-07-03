@@ -9,15 +9,15 @@ class Rectangle:
         Rectangle classe
     """
     def __init__(self, width=0, height=0):
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
-    def width(width):
+    def width(self):
         return self.__width
 
     @property
-    def height(height):
+    def height(self):
         return self.__height
 
     @width.setter
