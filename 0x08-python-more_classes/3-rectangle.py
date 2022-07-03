@@ -54,3 +54,13 @@ class Rectangle:
                     print("#", end="")
                 print("\n", end="")
         return ""
+
+    def print(Rectangle):
+        if Rectangle.height == 0 or Rectangle.width == 0:
+            return ""
+        else:
+            for i in range(Rectangle.height):
+                for j in range(Rectangle.width):
+                    print("#", end="")
+                print("\n", end="")
+        return ""
