@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+matrix_divided module
+"""
+
+
 def matrix_divided(matrix, div):
+    """
+    matrix_divided module
+    """
     new_matrix = []
 
     ty_err = "matrix must be a matrix (list of lists) of integers/floats"

@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+text_indentation module
+"""
+
+
 def text_indentation(text):
+    """
+    text_indentation module
+    """
     charPrinted = False
     if type(text) != str:
         raise TypeError("text must be a string")
