@@ -27,3 +27,23 @@ Using function called ''print_sorted()''.
 
 >>> print(my_list)
 [1, 4, 2, 3, 5]
+
+>>> second = MyList()
+
+>>> second.append(4)
+
+>>> second.append(-1)
+
+>>> second.append(0)
+
+>>> second.print_sorted()
+[-1, 0, 4]
+
+>>> second.append("b")
+>>> second
+[4, -1, 0, 'b']
+
+>>> second.print_sorted()
+Traceback (most recent call last):
+        ...
+TypeError: unorderable types: str() < int()
