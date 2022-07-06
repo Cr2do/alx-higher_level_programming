@@ -15,4 +15,4 @@ class Square(Rectangle):
         Args:
             size (int): size
         """
-        super().__init__(size, size)
+        super().__init__(self, size, size)
